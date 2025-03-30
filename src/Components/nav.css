@@ -82,7 +82,7 @@
   box-shadow: none !important;
   padding: 5px;
   background: transparent !important;
-  color: #F5F0E6 !important;
+  color: #6F4E37 !important;
   margin-left: auto;
 }
 
@@ -118,29 +118,34 @@
   text-shadow: none;
 }
 
-/* Fix for Navbar Collapse Background */
+/* Drawer Navigation */
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: rgba(245, 242, 237, 0.98) !important;
-    padding: 10px;
-    border-radius: 15px;
-    margin-top: 10px;
-    position: absolute;
-    top: 100%;
-    left: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background: #cfcbc4;
+    padding: 80px 20px 20px;
+    transition: right 0.3s ease-in-out;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .navbar-collapse.show {
     right: 0;
-    z-index: 1000;
   }
 
   .nav-wrapper {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
   }
 
   .nav-container {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     background: transparent;
     padding: 0;
     width: 100%;
@@ -149,17 +154,30 @@
   .navbar-nav .nav-item {
     margin: 5px 0;
     width: 100%;
-    text-align: center;
   }
 
   .navbar-nav .nav-link {
     padding: 10px 20px;
+    width: 100%;
+    text-align: left;
   }
 
   .home-link {
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
+  }
+
+  /* Overlay when drawer is open */
+  .navbar-collapse.show::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
   }
 }
 

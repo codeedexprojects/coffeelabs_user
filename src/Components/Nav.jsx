@@ -43,6 +43,18 @@ function Nav() {
     setIsNavCollapsed(true); // Close mobile menu after clicking
   };
 
+  // Close drawer when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!isNavCollapsed && !event.target.closest('.navbar-collapse') && !event.target.closest('.navbar-toggler')) {
+        setIsNavCollapsed(true);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [isNavCollapsed]);
+
   return (
     <nav className={`navbar navbar-expand-lg fixed-top px-4 ${navbarBg ? 'bg-white shadow' : 'bg-transparent'}`}>
       <div className="container-fluid">
@@ -58,11 +70,11 @@ function Nav() {
           type="button"
           onClick={() => setIsNavCollapsed(!isNavCollapsed)}
         >
-          <i className="bi bi-menu-button-wide text-dark"></i>
+          <i className="bi bi-list text-dark"></i>
         </button>
 
         {/* Navigation Container with Home */}
-        <div className={`collapse navbar-collapse justify-content-center ${isNavCollapsed ? '' : 'show'}`} id="navbarNav">
+        <div className={`collapse navbar-collapse ${isNavCollapsed ? '' : 'show'}`} id="navbarNav">
           <div className="nav-wrapper">
             {/* Home Link */}
             <a className={`nav-link home-link ${location.pathname === '/' ? 'active' : ''}`} href="/">Home</a>
