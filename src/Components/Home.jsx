@@ -14,7 +14,7 @@ function Home() {
       <TopCategory />
       <SuccessPartners />
       <Blogs />
-     
+
     </div>
   )
 }
