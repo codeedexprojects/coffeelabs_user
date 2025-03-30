@@ -1,0 +1,816 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "title": "White Chocolate",
+      "category": "spreads",
+      "image": "/Assets/Products/1.png",
+      "price": 24.99,
+      "description": "Mr Brew white chocolate spread"
+    },
+    {
+      "id": 2,
+      "title": "Caramel",
+      "category": "spreads",
+      "image": "/Assets/Products/2.png",
+      "price": 24.99,
+      "description": "Mr Brew caramel spread"
+    },
+    {
+      "id": 3,
+      "title": "Pistachio",
+      "category": "spreads",
+      "image": "/Assets/Products/3.png",
+      "price": 29.99,
+      "description": "Mr Brew pistachio spread"
+    },
+    {
+      "id": 4,
+      "title": "Hazulnut",
+      "category": "spreads",
+      "image": "/Assets/Products/4.png",
+      "price": 24.99,
+      "description": "Mr Brew hazulnut spread"
+    },
+    {
+      "id": 5,
+      "title": "Kinder",
+      "category": "spreads",
+      "image": "/Assets/Products/5.png",
+      "price": 24.99,
+      "description": "Mr Brew kinder spread"
+    },
+    {
+      "id": 6,
+      "title": "Oreo",
+      "category": "spreads",
+      "image": "/Assets/Products/6.png",
+      "price": 24.99,
+      "description": "Mr Brew oreo spread"
+    },
+    {
+      "id": 7,
+      "title": "Lotus",
+      "category": "spreads",
+      "image": "/Assets/Products/7.png",
+      "price": 24.99,
+      "description": "Mr Brew lotus spread"
+    },
+    {
+      "id": 8,
+      "title": "Ethiopia Himbla",
+      "category": "coffee",
+      "image": "/Assets/Products/8.png",
+      "price": 39.99,
+      "description": "Premium Ethiopian coffee beans"
+    },
+    {
+      "id": 9,
+      "title": "Dark Star Esspresso",
+      "category": "coffee",
+      "image": "/Assets/Products/9.png",
+      "price": 34.99,
+      "description": "Dark roasted espresso blend"
+    },
+    {
+      "id": 10,
+      "title": "Esspresso Blend",
+      "category": "coffee",
+      "image": "/Assets/Products/10.png",
+      "price": 29.99,
+      "description": "Classic espresso blend"
+    },
+    {
+      "id": 11,
+      "title": "MR BREW",
+      "category": "coffee",
+      "image": "/Assets/Products/11.png",
+      "price": 32.99,
+      "description": "Mr Brew signature coffee blend"
+    },
+    {
+      "id": 12,
+      "title": "BARNS",
+      "category": "coffee",
+      "image": "/Assets/Products/12.png",
+      "price": 27.99,
+      "description": "Barns premium coffee"
+    },
+    {
+      "id": 13,
+      "title": "LAVAZZA",
+      "category": "coffee",
+      "image": "/Assets/Products/13.png",
+      "price": 35.99,
+      "description": "Lavazza Italian coffee"
+    },
+    {
+      "id": 14,
+      "title": "INTENSO",
+      "category": "coffee",
+      "image": "/Assets/Products/14.png",
+      "price": 39.99,
+      "description": "Intenso strong coffee blend"
+    },
+    {
+      "id": 15,
+      "title": "CAFFE DIEMME",
+      "category": "coffee",
+      "image": "/Assets/Products/15.png",
+      "price": 36.99,
+      "description": "Caffe Diemme Italian coffee"
+    },
+    {
+      "id": 16,
+      "title": "JEVAN",
+      "category": "coffee",
+      "image": "/Assets/Products/16.png",
+      "price": 29.99,
+      "description": "Jevan premium coffee"
+    },
+    {
+      "id": 17,
+      "title": "GOURMET",
+      "category": "coffee",
+      "image": "/Assets/Products/17.png",
+      "price": 31.99,
+      "description": "Gourmet coffee blend"
+    },
+    {
+      "id": 18,
+      "title": "1882",
+      "category": "coffee",
+      "image": "/Assets/Products/18.png",
+      "price": 42.99,
+      "description": "1882 premium coffee blend"
+    },
+    {
+      "id": 19,
+      "title": "ESSSE",
+      "category": "coffee",
+      "image": "/Assets/Products/19.png",
+      "price": 33.99,
+      "description": "Essse coffee blend"
+    },
+    {
+      "id": 20,
+      "title": "SENWAN",
+      "category": "coffee",
+      "image": "/Assets/Products/20.png",
+      "price": 34.99,
+      "description": "Senwan premium coffee"
+    },
+    {
+      "id": 21,
+      "title": "MONIN",
+      "category": "syrups",
+      "image": "/Assets/Products/21.png",
+      "price": 19.99,
+      "description": "Monin premium syrups"
+    },
+    {
+      "id": 22,
+      "title": "FO",
+      "category": "syrups",
+      "image": "/Assets/Products/22.png",
+      "price": 15.99,
+      "description": "FO flavoring syrup"
+    },
+    {
+      "id": 23,
+      "title": "SWEET BIRD",
+      "category": "syrups",
+      "image": "/Assets/Products/23.png",
+      "price": 16.99,
+      "description": "Sweet Bird flavoring syrup"
+    },
+    {
+      "id": 24,
+      "title": "TORANI",
+      "category": "syrups",
+      "image": "/Assets/Products/24.png",
+      "price": 17.99,
+      "description": "Torani premium syrup"
+    },
+    {
+      "id": 25,
+      "title": "JEVAN",
+      "category": "syrups",
+      "image": "/Assets/Products/25.png",
+      "price": 14.99,
+      "description": "Jevan flavoring syrup"
+    },
+    {
+      "id": 26,
+      "title": "White Chocolate Syrup",
+      "category": "syrups",
+      "image": "/Assets/Products/26.png",
+      "price": 5.99,
+      "description": "Sweet white chocolate flavoring syrup"
+    },
+    {
+      "id": 27,
+      "title": "Caramel Syrup",
+      "category": "syrups",
+      "image": "/Assets/Products/27.png",
+      "price": 5.99,
+      "description": "Rich caramel flavoring syrup"
+    },
+    {
+      "id": 28,
+      "title": "Vanilla Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/28.png",
+      "price": 5.99,
+      "description": "Classic vanilla flavoring syrup"
+    },
+    {
+      "id": 29,
+      "title": "Hazelnut Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/29.png",
+      "price": 6.99,
+      "description": "Premium hazelnut flavoring syrup"
+    },
+    {
+      "id": 30,
+      "title": "Chocolate Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/30.png",
+      "price": 5.99,
+      "description": "Rich chocolate flavoring syrup"
+    },
+    {
+      "id": 31,
+      "title": "Toffee Nut Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/31.png",
+      "price": 6.99,
+      "description": "Sweet toffee nut flavoring syrup"
+    },
+    {
+      "id": 32,
+      "title": "Peppermint Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/32.png",
+      "price": 5.99,
+      "description": "Refreshing peppermint flavoring syrup"
+    },
+    {
+      "id": 33,
+      "title": "Cinnamon Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/33.png",
+      "price": 5.99,
+      "description": "Warm cinnamon flavoring syrup"
+    },
+    {
+      "id": 34,
+      "title": "Almond Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/34.png",
+      "price": 6.99,
+      "description": "Smooth almond flavoring syrup"
+    },
+    {
+      "id": 35,
+      "title": "Irish Cream Syrup",
+      "category": "syrups",
+      "image": "./Assets/Products/35.png",
+      "price": 6.99,
+      "description": "Creamy Irish cream flavoring syrup"
+    },
+    {
+      "id": 36,
+      "title": "Espresso Powder",
+      "category": "coffee-powder",
+      "image": "./Assets/Products/36.png",
+      "price": 12.99,
+      "description": "Fine ground espresso powder"
+    },
+    {
+      "id": 37,
+      "title": "French Vanilla Powder",
+      "category": "coffee-powder",
+      "image": "./Assets/Products/37.png",
+      "price": 13.99,
+      "description": "Vanilla flavored coffee powder"
+    },
+    {
+      "id": 38,
+      "title": "Chocolate Sauce",
+      "category": "sauce",
+      "image": "./Assets/Products/38.png",
+      "price": 7.99,
+      "description": "Rich chocolate sauce"
+    },
+    {
+      "id": 39,
+      "title": "Caramel Sauce",
+      "category": "sauce",
+      "image": "./Assets/Products/39.png",
+      "price": 7.99,
+      "description": "Smooth caramel sauce"
+    },
+    {
+      "id": 40,
+      "title": "Hazelnut Spread",
+      "category": "chocolate-spread",
+      "image": "./Assets/Products/40.png",
+      "price": 8.99,
+      "description": "Creamy hazelnut spread"
+    },
+    {
+      "id": 41,
+      "title": "Dark Chocolate Spread",
+      "category": "chocolate-spread",
+      "image": "./Assets/Products/41.png",
+      "price": 8.99,
+      "description": "Rich dark chocolate spread"
+    },
+    {
+      "id": 42,
+      "title": "Dark Chocolate Chips",
+      "category": "chocolate-chip",
+      "image": "./Assets/Products/42.png",
+      "price": 6.99,
+      "description": "Premium dark chocolate chips"
+    },
+    {
+      "id": 43,
+      "title": "Milk Chocolate Chips",
+      "category": "chocolate-chip",
+      "image": "./Assets/Products/43.png",
+      "price": 6.99,
+      "description": "Sweet milk chocolate chips"
+    },
+    {
+      "id": 44,
+      "title": "Earl Grey Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/44.png",
+      "price": 9.99,
+      "description": "Classic earl grey tea"
+    },
+    {
+      "id": 45,
+      "title": "Green Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/45.png",
+      "price": 9.99,
+      "description": "Premium Japanese green tea"
+    },
+    {
+      "id": 46,
+      "title": "Espresso Machine",
+      "category": "coffee-machines",
+      "image": "./Assets/Products/46.png",
+      "price": 299.99,
+      "description": "Professional espresso machine"
+    },
+    {
+      "id": 47,
+      "title": "Coffee Grinder",
+      "category": "coffee-machines",
+      "image": "./Assets/Products/47.png",
+      "price": 149.99,
+      "description": "Electric burr grinder"
+    },
+    {
+      "id": 48,
+      "title": "Coffee Machine Cleaner",
+      "category": "cleaners-filters",
+      "image": "./Assets/Products/48.png",
+      "price": 14.99,
+      "description": "Professional cleaning solution"
+    },
+    {
+      "id": 49,
+      "title": "Water Filter",
+      "category": "cleaners-filters",
+      "image": "./Assets/Products/49.png",
+      "price": 19.99,
+      "description": "Replacement water filter"
+    },
+    {
+      "id": 50,
+      "title": "Coffee Tamper",
+      "category": "accessories",
+      "image": "./Assets/Products/50.png",
+      "price": 19.99,
+      "description": "Professional coffee tamper"
+    },
+    {
+      "id": 51,
+      "title": "Coffee Scale",
+      "category": "accessories",
+      "image": "./Assets/Products/51.png",
+      "price": 29.99,
+      "description": "Digital coffee scale"
+    },
+    {
+      "id": 52,
+      "title": "Coffee Bags",
+      "category": "packing",
+      "image": "./Assets/Products/52.png",
+      "price": 11.99,
+      "description": "Premium coffee packaging bags"
+    },
+    {
+      "id": 53,
+      "title": "Coffee Tins",
+      "category": "packing",
+      "image": "./Assets/Products/53.png",
+      "price": 14.99,
+      "description": "Airtight coffee storage tins"
+    },
+    {
+      "id": 54,
+      "title": "GIFFARD",
+      "category": "sauce",
+      "image": "./Assets/Products/54.png",
+      "price": 22.99,
+      "description": "Giffard premium sauce"
+    },
+    {
+      "id": 55,
+      "title": "MONIN",
+      "category": "sauce",
+      "image": "./Assets/Products/55.png",
+      "price": 24.99,
+      "description": "Monin dark chocolate sauce"
+    },
+    {
+      "id": 56,
+      "title": "FO",
+      "category": "sauce",
+      "image": "./Assets/Products/56.png",
+      "price": 19.99,
+      "description": "FO chocolate sauce"
+    },
+    {
+      "id": 57,
+      "title": "ZUMA",
+      "category": "sauce",
+      "image": "./Assets/Products/57.png",
+      "price": 21.99,
+      "description": "Zuma premium sauce"
+    },
+    {
+      "id": 58,
+      "title": "TORANI",
+      "category": "sauce",
+      "image": "./Assets/Products/58.png",
+      "price": 23.99,
+      "description": "Torani chocolate sauce"
+    },
+    {
+      "id": 59,
+      "title": "IL DOGE",
+      "category": "sauce",
+      "image": "./Assets/Products/59.png",
+      "price": 25.99,
+      "description": "Il Doge premium sauce"
+    },
+    {
+      "id": 86,
+      "title": "Alkabous Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/86.png",
+      "price": 4.99,
+      "description": "Alkabous green tea"
+    },
+    {
+      "id": 87,
+      "title": "Alkabous Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/87.png",
+      "price": 4.99,
+      "description": "Alkabous classic tea"
+    },
+    {
+      "id": 88,
+      "title": "Dilmah Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/88.png",
+      "price": 6.99,
+      "description": "Dilmah breakfast tea"
+    },
+    {
+      "id": 89,
+      "title": "Twinings Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/89.png",
+      "price": 5.99,
+      "description": "Twinings green tea"
+    },
+    {
+      "id": 90,
+      "title": "Alrabee Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/90.png",
+      "price": 4.99,
+      "description": "Alrabee organic tea selection"
+    },
+    {
+      "id": 91,
+      "title": "Khadeer Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/91.png",
+      "price": 5.99,
+      "description": "Khadeer premium tea"
+    },
+    {
+      "id": 92,
+      "title": "Abu Jabal Tea",
+      "category": "tea-milk",
+      "image": "./Assets/Products/92.png",
+      "price": 4.99,
+      "description": "Abu Jabal full leaf tea"
+    },
+    {
+      "id": 93,
+      "title": "Nestle Condensed Milk",
+      "category": "tea-milk",
+      "image": "./Assets/Products/93.png",
+      "price": 3.99,
+      "description": "Nestle sweetened condensed milk"
+    },
+    {
+      "id": 94,
+      "title": "Nestle Condensed Milk Caramel",
+      "category": "tea-milk",
+      "image": "./Assets/Products/94.png",
+      "price": 4.29,
+      "description": "Nestle caramel condensed milk"
+    },
+    {
+      "id": 95,
+      "title": "Rainbow Milk",
+      "category": "tea-milk",
+      "image": "./Assets/Products/95.png",
+      "price": 2.99,
+      "description": "Rainbow evaporated milk"
+    },
+    {
+      "id": 131,
+      "title": "Frothing Pitcher",
+      "category": "accessories",
+      "image": "./Assets/Products/131.png",
+      "price": 14.99,
+      "description": "Professional milk frothing pitcher"
+    },
+    {
+      "id": 132,
+      "title": "Dosing Cup",
+      "category": "accessories",
+      "image": "./Assets/Products/132.png",
+      "price": 9.99,
+      "description": "Coffee dosing cup"
+    },
+    {
+      "id": 133,
+      "title": "Hand Pour Pot",
+      "category": "accessories",
+      "image": "./Assets/Products/133.png",
+      "price": 24.99,
+      "description": "Pour-over coffee kettle"
+    },
+    {
+      "id": 134,
+      "title": "Tamper",
+      "category": "accessories",
+      "image": "./Assets/Products/134.png",
+      "price": 19.99,
+      "description": "Professional coffee tamper"
+    },
+    {
+      "id": 135,
+      "title": "Corner Tamping Mat",
+      "category": "accessories",
+      "image": "./Assets/Products/135.png",
+      "price": 12.99,
+      "description": "Silicone tamping mat"
+    },
+    {
+      "id": 136,
+      "title": "Electronic Scale",
+      "category": "accessories",
+      "image": "./Assets/Products/136.png",
+      "price": 29.99,
+      "description": "Digital coffee scale"
+    },
+    {
+      "id": 137,
+      "title": "Timer",
+      "category": "accessories",
+      "image": "./Assets/Products/137.png",
+      "price": 15.99,
+      "description": "Digital barista timer"
+    },
+    {
+      "id": 138,
+      "title": "Hand Grinder",
+      "category": "accessories",
+      "image": "./Assets/Products/138.png",
+      "price": 34.99,
+      "description": "Manual coffee grinder"
+    },
+    {
+      "id": 139,
+      "title": "WDT Tool",
+      "category": "accessories",
+      "image": "./Assets/Products/139.png",
+      "price": 12.99,
+      "description": "Coffee distribution tool"
+    },
+    {
+      "id": 140,
+      "title": "Sharing Pot",
+      "category": "accessories",
+      "image": "./Assets/Products/140.png",
+      "price": 29.99,
+      "description": "Glass coffee sharing pot"
+    },
+    {
+      "id": 141,
+      "title": "Filter Bowl",
+      "category": "accessories",
+      "image": "./Assets/Products/141.png",
+      "price": 19.99,
+      "description": "V60 coffee filter"
+    },
+    {
+      "id": 142,
+      "title": "Measure Glass",
+      "category": "accessories",
+      "image": "./Assets/Products/142.png",
+      "price": 9.99,
+      "description": "Shot measuring glass"
+    },
+    {
+      "id": 143,
+      "title": "Barista Cloth Set",
+      "category": "accessories",
+      "image": "./Assets/Products/143.png",
+      "price": 14.99,
+      "description": "Professional cleaning cloths"
+    },
+    {
+      "id": 144,
+      "title": "Black Cloth Set",
+      "category": "accessories",
+      "image": "./Assets/Products/144.png",
+      "price": 14.99,
+      "description": "Black cleaning cloths"
+    },
+    {
+      "id": 145,
+      "title": "Distributer",
+      "category": "accessories",
+      "image": "./Assets/Products/145.png",
+      "price": 24.99,
+      "description": "Coffee distribution tool"
+    },
+    {
+      "id": 146,
+      "title": "Temptag",
+      "category": "accessories",
+      "image": "./Assets/Products/146.png",
+      "price": 7.99,
+      "description": "Temperature indicator tags"
+    },
+    {
+      "id": 147,
+      "title": "Plastic Cup",
+      "category": "packing",
+      "image": "./Assets/Products/147.png",
+      "price": 0.99,
+      "description": "Disposable plastic cup"
+    },
+    {
+      "id": 148,
+      "title": "Paper Cup",
+      "category": "packing",
+      "image": "./Assets/Products/148.png",
+      "price": 0.99,
+      "description": "Disposable paper cup"
+    },
+    {
+      "id": 149,
+      "title": "Plastic Bags",
+      "category": "packing",
+      "image": "./Assets/Products/149.png",
+      "price": 4.99,
+      "description": "Plastic carry bags"
+    },
+    {
+      "id": 150,
+      "title": "Cake Box",
+      "category": "packing",
+      "image": "./Assets/Products/150.png",
+      "price": 2.99,
+      "description": "Cake packaging box"
+    },
+    {
+      "id": 151,
+      "title": "Straws",
+      "category": "packing",
+      "image": "./Assets/Products/151.png",
+      "price": 3.99,
+      "description": "Colorful drinking straws"
+    },
+    {
+      "id": 152,
+      "title": "Paper Bag",
+      "category": "packing",
+      "image": "./Assets/Products/152.png",
+      "price": 1.99,
+      "description": "Paper carry bag"
+    },
+    {
+      "id": 153,
+      "title": "Bank Roll",
+      "category": "packing",
+      "image": "./Assets/Products/153.png",
+      "price": 4.99,
+      "description": "Receipt paper roll"
+    },
+    {
+      "id": 154,
+      "title": "Cash Roll",
+      "category": "packing",
+      "image": "./Assets/Products/154.png",
+      "price": 4.99,
+      "description": "Cash register paper roll"
+    },
+    {
+      "id": 155,
+      "title": "Cutlery Set",
+      "category": "packing",
+      "image": "./Assets/Products/155.png",
+      "price": 2.99,
+      "description": "Disposable fork, spoon & knife set"
+    },
+    {
+      "id": 156,
+      "title": "Paper Cup Holder",
+      "category": "packing",
+      "image": "./Assets/Products/156.png",
+      "price": 3.99,
+      "description": "Paper cup carrier"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "spreads",
+      "name": "Chocolate Spreads",
+      "count": 7
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "count": 30
+    },
+    {
+      "id": "syrups",
+      "name": "Syrups",
+      "count": 15
+    },
+    {
+      "id": "coffee-powder",
+      "name": "Coffee Powder",
+      "count": 15
+    },
+    {
+      "id": "sauce",
+      "name": "Sauce",
+      "count": 12
+    },
+    {
+      "id": "tea-milk",
+      "name": "Tea & Milk",
+      "count": 12
+    },
+    {
+      "id": "coffee-machines",
+      "name": "Coffee Machines",
+      "count": 6
+    },
+    {
+      "id": "cleaners-filters",
+      "name": "Cleaners & Filters",
+      "count": 7
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "count": 20
+    },
+    {
+      "id": "packing",
+      "name": "Packing Essentials",
+      "count": 10
+    }
+  ]
+}

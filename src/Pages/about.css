@@ -1,0 +1,312 @@
+@import url('https://fonts.cdnfonts.com/css/mustang');
+
+.about-section {
+  padding: 80px 0;
+  background-color: #F5F0E6;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Main Introduction */
+.about-intro {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.intro-icon {
+  font-size: 48px;
+  color: #6F4E37;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.about-intro h2 {
+  font-size: 42px;
+  color: #6F4E37;
+  margin-bottom: 15px;
+  font-family: 'Mustang', sans-serif;
+  letter-spacing: 1px;
+}
+
+.underline {
+  width: 80px;
+  height: 3px;
+  background: #8A9A5B;
+  margin: 0 auto 30px;
+  position: relative;
+}
+
+.underline::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: #6F4E37;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: underlineWidth 2s ease-in-out infinite;
+}
+
+.about-intro p {
+  font-size: 17px;
+  color: #3B2E2A;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Vision & Mission Grid */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.about-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(111, 78, 55, 0.1);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #8A9A5B;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(111, 78, 55, 0.15);
+}
+
+.about-card:hover::before {
+  transform: scaleX(1);
+}
+
+.card-icon {
+  font-size: 36px;
+  color: #6F4E37;
+  margin-bottom: 20px;
+}
+
+.about-card h3 {
+  color: #6F4E37;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Mustang', sans-serif;
+}
+
+.about-card p {
+  color: #3B2E2A;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* Values Section */
+.values-section {
+  margin-bottom: 80px;
+}
+
+.values-section h3 {
+  text-align: center;
+  color: #6F4E37;
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: 'Mustang', sans-serif;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.value-item {
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(111, 78, 55, 0.1);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.value-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #8A9A5B;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+
+.value-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(111, 78, 55, 0.15);
+}
+
+.value-item:hover::after {
+  transform: scaleX(1);
+}
+
+.value-icon {
+  font-size: 32px;
+  color: #6F4E37;
+  margin-bottom: 15px;
+}
+
+.value-item h4 {
+  color: #6F4E37;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.value-item p {
+  color: #3B2E2A;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+}
+
+.services-section h3 {
+  color: #6F4E37;
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: 'Mustang', sans-serif;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.service-item {
+  background: #8A9A5B;
+  padding: 25px 20px;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-weight: 500;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.service-icon {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.service-item:hover {
+  transform: translateY(-5px) scale(1.02);
+  background: #6F4E37;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes underlineWidth {
+  0%, 100% { width: 40px; }
+  50% { width: 80px; }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .values-grid, .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .about-intro h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 0;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-intro {
+    margin-bottom: 60px;
+  }
+
+  .about-intro h2 {
+    font-size: 32px;
+  }
+
+  .about-card {
+    padding: 30px;
+  }
+
+  .values-grid, .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .value-item {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 40px 0;
+  }
+
+  .about-intro h2 {
+    font-size: 28px;
+  }
+
+  .about-intro p {
+    font-size: 15px;
+  }
+
+  .card-icon, .value-icon {
+    font-size: 28px;
+  }
+
+  .about-card h3, .values-section h3, .services-section h3 {
+    font-size: 24px;
+  }
+} 

@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-Screen Landing Page */
+.landing-container {
+    margin-top: 0;
+    padding-top: 60px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(59, 46, 42, 0.3), rgba(59, 46, 42, 0.3)), url('../Assets/land1.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%; /* Moved content more to the left */
+}
+
+/* Content Styling */
+.content {
+    color: #F5F0E6;
+    text-align: left;
+    max-width: 500px;
+}
+
+/* Subtitle */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+    font-weight: 400;
+    color: #F5F0E6;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* Call-to-action Button */
+.cta-button {
+    background: #8A9A5B;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cta-button::before {
+    display: none;
+}
+
+.cta-button:hover {
+    background: #6F4E37;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .landing-container {
+        padding-left: 3%; /* Adjusted for larger screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-container {
+        padding-left: 3%; /* Adjusted for medium screens */
+        background: linear-gradient(rgba(59, 46, 42, 0.3), rgba(59, 46, 42, 0.3)), url('../Assets/land2.jpg') no-repeat center center/cover;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta-button {
+        font-size: 1.2rem;
+        padding: 10px 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-container {
+        padding-left: 2%; /* Adjusted for small screens */
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(rgba(59, 46, 42, 0.3), rgba(59, 46, 42, 0.3)), url('../Assets/land2.jpg') no-repeat center center/cover;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content {
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+}
