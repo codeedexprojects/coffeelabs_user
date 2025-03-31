@@ -55,6 +55,11 @@ function Nav() {
     return () => document.removeEventListener('click', handleClickOutside);
   }, [isNavCollapsed]);
 
+  // Handle drawer close
+  const handleDrawerClose = () => {
+    setIsNavCollapsed(true);
+  };
+
   return (
     <nav className={`navbar navbar-expand-lg fixed-top px-4 ${navbarBg ? 'bg-white shadow' : 'bg-transparent'}`}>
       <div className="container-fluid">
@@ -74,7 +79,12 @@ function Nav() {
         </button>
 
         {/* Navigation Container with Home */}
-        <div className={`collapse navbar-collapse ${isNavCollapsed ? '' : 'show'}`} id="navbarNav">
+        <div className={`collapse navbar-collapse justify-content-center ${isNavCollapsed ? '' : 'show'}`} id="navbarNav">
+          {/* Mobile Close Button */}
+          <button className="mobile-close" onClick={handleDrawerClose}>
+            <i className="bi bi-x-lg"></i>
+          </button>
+
           <div className="nav-wrapper">
             {/* Home Link */}
             <a className={`nav-link home-link ${location.pathname === '/' ? 'active' : ''}`} href="/">Home</a>
