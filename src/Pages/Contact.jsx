@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './contact.css';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -128,24 +128,8 @@ const Contact = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="Coffee Labs Location in Riyadh, Saudi Arabia"
             ></iframe>
-          </div>
-        </div>
-
-        {/* Newsletter Section */}
-        <div className="newsletter-section">
-          <div className="newsletter-content">
-            <h3>Subscribe to Our Newsletter</h3>
-            <p>Stay updated with our latest news and special offers</p>
-            <form onSubmit={handleSubmit} className="newsletter-form">
-              <input type="email" placeholder="Enter your email" required />
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
-          <div className="social-links">
-            <a href="#" className="social-icon"><FaFacebookF /></a>
-            <a href="#" className="social-icon"><FaTwitter /></a>
-            <a href="#" className="social-icon"><FaInstagram /></a>
           </div>
         </div>
       </div>
