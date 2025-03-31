@@ -47,6 +47,7 @@
   align-items: center;
   gap: 8px;
   height: 100%;
+  margin: 0 auto;
 }
 
 .navbar>.container-fluid {
@@ -54,6 +55,13 @@
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 /* Home Link */
@@ -118,6 +126,11 @@
   text-shadow: none;
 }
 
+/* Mobile Close Button - Hidden by default */
+.mobile-close {
+  display: none;
+}
+
 /* Drawer Navigation */
 @media (max-width: 991px) {
   .navbar-collapse {
@@ -126,46 +139,95 @@
     right: -100%;
     width: 300px;
     height: 100vh;
-    background: #cfcbc4;
-    padding: 80px 20px 20px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 80px 15px 20px;
     transition: right 0.3s ease-in-out;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 999;
+    justify-content: flex-start;
   }
 
   .navbar-collapse.show {
     right: 0;
   }
 
+  /* Mobile Close Button - Shown on mobile */
+  .mobile-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-close:hover {
+    color: #fff;
+    transform: rotate(90deg);
+  }
+
   .nav-wrapper {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     width: 100%;
+    margin: 0;
+    gap: 10px;
   }
 
   .nav-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     background: transparent;
     padding: 0;
     width: 100%;
+    gap: 10px;
   }
 
   .navbar-nav .nav-item {
-    margin: 5px 0;
+    margin: 0;
     width: 100%;
   }
 
   .navbar-nav .nav-link {
-    padding: 10px 20px;
+    padding: 15px 20px;
     width: 100%;
     text-align: left;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 30px;
+    font-weight: 500;
+    background: transparent;
   }
 
   .home-link {
+    padding: 15px 20px;
     width: 100%;
     text-align: left;
-    margin-bottom: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    background: transparent;
+  }
+
+  .navbar-nav .nav-link.active,
+  .home-link.active {
+    background-color: #8B4513;
+    color: #FFFFFF !important;
+  }
+
+  .navbar-nav .nav-link:hover,
+  .home-link:hover {
+    background-color: #8B4513;
+    color: #FFFFFF !important;
   }
 
   /* Overlay when drawer is open */
