@@ -27,8 +27,10 @@ const Contact = () => {
     <div className="contact-wrapper">
       {/* Hero Section */}
       <div className="contact-hero">
-        <h1>Get in Touch</h1>
-        <p>We'd love to hear from you. Our team is always here to chat.</p>
+        <h1>Contact Us</h1>
+        <p style={{ color: '#ffffff', fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto', opacity: '0.9' }}>
+          We'd love to hear from you. Our team is always here to chat.
+        </p>
       </div>
 
       <div className="contact-container">
@@ -39,15 +41,15 @@ const Contact = () => {
               <FaPhone className="contact-icon" />
             </div>
             <h4>Call Us</h4>
-            <p>(+876) 765 665</p>
-            <span>Mon-Fri from 8am to 5pm</span>
+            <p>+966 50 123 4567</p>
+            <span>Sun-Thu from 9am to 6pm</span>
           </div>
           <div className="contact-info-card">
             <div className="icon-wrapper">
               <FaEnvelope className="contact-icon" />
             </div>
             <h4>Email Us</h4>
-            <p>coffee@influenca.id</p>
+            <p>info@coffeelabs.sa</p>
             <span>We'll respond within 24 hours</span>
           </div>
           <div className="contact-info-card">
@@ -55,7 +57,7 @@ const Contact = () => {
               <FaMapMarkerAlt className="contact-icon" />
             </div>
             <h4>Visit Us</h4>
-            <p>London Eye, London</p>
+            <p>Riyadh, Saudi Arabia</p>
             <span>Open daily 9am - 10pm</span>
           </div>
         </div>
@@ -74,6 +76,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
+                  placeholder="Enter your full name"
                 />
               </div>
               <div className="form-group">
@@ -84,6 +87,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
+                  placeholder="Enter your email address"
                 />
               </div>
               <div className="form-group">
@@ -94,6 +98,7 @@ const Contact = () => {
                   value={formData.phone}
                   onChange={handleChange}
                   required
+                  placeholder="Enter your phone number"
                 />
               </div>
               <div className="form-group">
@@ -104,6 +109,7 @@ const Contact = () => {
                   onChange={handleChange}
                   rows="5"
                   required
+                  placeholder="How can we help you?"
                 ></textarea>
               </div>
               <button type="submit" className="submit-button">
@@ -115,7 +121,7 @@ const Contact = () => {
           {/* Map Section */}
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.537431086829!2d-0.1198533!3d51.503324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2sLondon%20Eye!5e0!3m2!1sen!2suk!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d463880.6834872434!2d46.5423589674815!3d24.725555344546403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1709244559275!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}

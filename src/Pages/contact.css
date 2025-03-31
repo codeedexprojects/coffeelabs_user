@@ -18,33 +18,54 @@
 
 /* Hero Section */
 .contact-hero {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Assets/contact.jpg') center/cover;
   color: var(--white);
-  padding: 100px 20px;
+  padding: 120px 20px 160px;
   text-align: center;
+  position: relative;
+  margin-bottom: -80px;
+}
+
+.contact-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(74, 62, 62, 0.9), rgba(139, 69, 19, 0.9));
+  z-index: 1;
+}
+
+.contact-hero h1,
+.contact-hero p {
+  position: relative;
+  z-index: 2;
 }
 
 .contact-hero h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 20px;
-  animation: fadeInDown 0.5s ease;
+  color: var(--white);
 }
 
 .contact-hero p {
   font-size: 1.2rem;
   max-width: 600px;
   margin: 0 auto;
+  color: var(--white);
   opacity: 0.9;
-  animation: fadeInUp 0.5s ease 0.2s;
+  line-height: 1.6;
 }
 
 /* Container */
 .contact-container {
   max-width: 1200px;
-  margin: -60px auto 0;
+  margin: 0 auto;
   padding: 0 20px;
   position: relative;
+  z-index: 3;
 }
 
 /* Contact Info Cards */
@@ -53,6 +74,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-bottom: 60px;
+  margin-top: -80px;
 }
 
 .contact-info-card {
@@ -64,6 +86,7 @@
   transition: var(--transition);
   position: relative;
   overflow: hidden;
+  z-index: 3;
 }
 
 .contact-info-card:hover {
