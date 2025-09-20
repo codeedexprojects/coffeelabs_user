@@ -14,7 +14,7 @@ function About() {
           </div>
           <h2>Welcome to Coffee Labs</h2>
           <div className="underline"></div>
-          <p>The premier destination for coffee labs for all the needs of cafes, restaurants, and hotels. We specialize in catering to cafes, restaurants, and hotels, providing a wide range of materials, equipment, and accessories to ensure the best customer experience. From providing specialized consultations to training the work team and fully equipping the site, we are here to be your trusted partner for achieving success and excellence.</p>
+          <p>The premier wholesale supplier of coffee equipment, materials, and accessories for cafes, restaurants, and hotels in Saudi Arabia. We offer a comprehensive range of products including professional coffee machines, premium coffee beans, tea powders, milk products, and all essential supplies needed for a successful beverage service operation. Our extensive catalog ensures you'll find everything you need for your business in one place.</p>
         </div>
 
         {/* Vision & Mission */}
@@ -25,7 +25,7 @@ function About() {
                 <FaChartLine />
               </div>
               <h3>Our Vision</h3>
-              <p>Our vision is to become the ideal partner for every cafe, restaurant, and hotel seeking quality and excellence in serving coffee and related services. We support the goals of Saudi Vision 2030 by promoting innovation and sustainability in the coffee industry and developing the hospitality sector according to the highest international standards.</p>
+              <p>To be Saudi Arabia's leading wholesale supplier of coffee equipment and materials, providing businesses with quality products at competitive prices. We align with Saudi Vision 2030 by fostering growth in the hospitality sector through reliable product supply and sustainable business practices.</p>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ function About() {
                 <FaCoffee />
               </div>
               <h3>Our Mission</h3>
-              <p>We strive to provide high-quality products and exceptional services that contribute to enhancing the customer experience and achieving their complete satisfaction.</p>
+              <p>To provide premium quality coffee equipment, materials, and supplies that enable our business partners to deliver exceptional beverage experiences to their customers. We are committed to being your one-stop wholesale supplier for all coffee-related products.</p>
             </div>
           </div>
         </div>
@@ -50,28 +50,28 @@ function About() {
                 <FaHeart />
               </div>
               <h4>Quality</h4>
-              <p>We are committed to providing products and services of unparalleled quality to ensure our customers' satisfaction.</p>
+              <p>We source and distribute only the finest equipment and materials from trusted international brands.</p>
             </div>
             <div className="value-item">
               <div className="value-icon">
                 <FaChartLine />
               </div>
               <h4>Innovation</h4>
-              <p>We always strive to innovate and provide modern and distinguished solutions in the coffee industry.</p>
+              <p>We continuously update our product catalog with the latest coffee industry equipment and supplies.</p>
             </div>
             <div className="value-item">
               <div className="value-icon">
                 <FaHandshake />
               </div>
               <h4>Reliability</h4>
-              <p>We build long-term relationships with our customers by providing reliable services and continuous support.</p>
+              <p>We maintain strong relationships with our partners through consistent supply chain management and timely delivery.</p>
             </div>
             <div className="value-item">
               <div className="value-icon">
                 <FaCoffee />
               </div>
               <h4>Commitment</h4>
-              <p>We are committed to meeting our customers' needs and working passionately to achieve their goals.</p>
+              <p>We are dedicated to providing the best products at competitive wholesale prices.</p>
             </div>
           </div>
         </div>
@@ -83,19 +83,19 @@ function About() {
           <div className="services-grid">
             <div className="service-item">
               <BiSolidCoffeeBean className="service-icon" />
-              <span>Catering for cafes, restaurants, and hotels</span>
+              <span>Coffee Machines & Equipment Supply</span>
             </div>
             <div className="service-item">
               <BiSolidCoffeeBean className="service-icon" />
-              <span>Specialized consulting</span>
+              <span>Coffee Beans & Tea Products</span>
             </div>
             <div className="service-item">
               <BiSolidCoffeeBean className="service-icon" />
-              <span>Training and supervision</span>
+              <span>Milk & Beverage Supplies</span>
             </div>
             <div className="service-item">
               <BiSolidCoffeeBean className="service-icon" />
-              <span>Full equipment</span>
+              <span>Accessories & Spare Parts</span>
             </div>
           </div>
         </div>

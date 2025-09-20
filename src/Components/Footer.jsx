@@ -41,15 +41,15 @@ function Footer() {
           <div className="contact-info">
             <div className="contact-item">
               <MapPin size={16} />
-              <p>70 Wapping Wall, London E1W 3SS</p>
+              <p>Jeddah-Al-Safa District-Umm Al-Qura Street</p>
             </div>
             <div className="contact-item">
               <Phone size={16} />
-              <p>+44 20 7998 7671</p>
+              <p>+966 05 09 091 032</p>
             </div>
             <div className="contact-item">
               <Mail size={16} />
-              <p>info@coffeelabs.com</p>
+              <p>coffeelabs@gmail.com</p>
             </div>
           </div>
         </div>

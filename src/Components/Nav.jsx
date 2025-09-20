@@ -101,13 +101,7 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className={`nav-link ${location.pathname === '/blog' ? 'active' : ''}`} href="/blog">Blog</a>
-              </li>
-              <li className="nav-item">
                 <a className={`nav-link ${location.pathname === '/product' ? 'active' : ''}`} href="/product">Product</a>
-              </li>
-              <li className="nav-item">
-                <a className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`} href="/contact">Contact</a>
               </li>
             </ul>
           </div>

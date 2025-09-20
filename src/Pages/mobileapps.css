@@ -1,0 +1,166 @@
+.mobile-apps-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #4A3E3E, #8B4513);
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-apps-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mobile-apps-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mobile-apps-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.mobile-apps-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.mobile-apps-text p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 180px;
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.ios-btn {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.android-btn {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.store-icon {
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+.btn-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.btn-text span:first-child {
+    font-size: 0.8rem;
+}
+
+.btn-text span:last-child {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.mobile-apps-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-icon {
+    font-size: 300px;
+    opacity: 0.1;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 992px) {
+    .mobile-apps-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download-buttons {
+        justify-content: center;
+    }
+
+    .mobile-apps-text {
+        max-width: 100%;
+    }
+
+    .phone-icon {
+        font-size: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-apps-section {
+        padding: 60px 0;
+    }
+
+    .mobile-apps-text h2 {
+        font-size: 2rem;
+    }
+
+    .download-btn {
+        min-width: 160px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-apps-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .download-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}

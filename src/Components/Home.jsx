@@ -1,18 +1,22 @@
 import React from "react";
 import LandingPage from "../Pages/LandingPage";
 import TopCategory from "../Pages/TopCategory";
-import Blogs from "../Pages/Blogs";
 import About from "../Pages/About";
 import SuccessPartners from "../Pages/SuccessPartners";
+import CustomerReviews from "../Pages/CustomerReviews";
+import MobileApps from "../Pages/MobileApps";
+import Statistics from "../Pages/Statistics";
 
 function Home() {
   return (
     <div>
       <LandingPage />
       <About />
+      <Statistics />
       <TopCategory />
       <SuccessPartners />
-      <Blogs />
+      <CustomerReviews />
+      <MobileApps />
     </div>
   );
 }

@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./landingpage.css";
 
 function LandingPage() {
+  const navigate = useNavigate();
+
+  const handleExplore = () => {
+    navigate('/product');
+  };
+
   return (
     <div className="landing-container">
       <div className="content">
@@ -17,7 +24,7 @@ function LandingPage() {
           <span>✦ Fresh Roasted</span>
           <span>✦ Artisanal Blend</span>
         </div>
-        <button className="cta-button">Explore Our Coffee</button>
+        <button className="cta-button" onClick={handleExplore}>Explore Here</button>
       </div>
     </div>
   );
